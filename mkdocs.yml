@@ -2,9 +2,6 @@ site_name: David's Publication
 theme:
   name: material
 
-docs_dir: C:\Users\David\Documents\my-publication\docs
-site_dir: C:\Users\David\Documents\my-publication\site
-
 nav:
   - Home: index.md
   - Getting Started:
