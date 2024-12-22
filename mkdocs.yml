@@ -1,5 +1,57 @@
-site_name: My Publication
-nav:
-  - Home: index.md
+site_name: David's Publication
 theme:
   name: material
+
+docs_dir: C:\Users\David\Documents\my-publication\docs
+site_dir: C:\Users\David\Documents\my-publication\site
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Overview: getting-started/overview.md
+      - Sign Up: getting-started/sign-up.md
+      - Authentication: getting-started/authentication.md
+      - Integration Options: getting-started/integration-options.md
+      - Testing: getting-started/testing.md
+  - Payments:
+      - Overview: payments/overview.md
+      - Create Payment Intent: payments/create-payment-intent.md
+      - Confirm Payment: payments/confirm-payment.md
+      - Payment Methods:
+          - Cards: payments/payment-methods/cards.md
+          - Wallets: payments/payment-methods/wallets.md
+          - Bank Debits: payments/payment-methods/bank-debits.md
+          - Buy Now, Pay Later: payments/payment-methods/buy-now-pay-later.md
+      - Refunds: payments/refunds.md
+  - Subscriptions:
+      - Overview: subscriptions/overview.md
+      - Create Subscription: subscriptions/create-subscription.md
+      - Manage Subscription: subscriptions/manage-subscription.md
+      - Invoices: subscriptions/invoices.md
+  - API Reference:
+      - Overview: api-reference/index.md
+      - Endpoints:
+          - Charges: api-reference/endpoints/charges.md
+          - Customers: api-reference/endpoints/customers.md
+          - Invoices: api-reference/endpoints/invoices.md
+          - Payment Intents: api-reference/endpoints/payment-intents.md
+          - Products: api-reference/endpoints/products.md
+      - Error Codes: api-reference/error-codes.md
+  - Webhooks:
+      - Overview: webhooks/overview.md
+      - Event Types: webhooks/event-types.md
+      - Signing Secrets: webhooks/signing-secrets.md
+      - Retry Mechanism: webhooks/retry-mechanism.md
+  - Resources:
+      - Glossary: resources/glossary.md
+      - Support: resources/support.md
+      - Limits: resources/limits.md
+      - FAQ: resources/faq.md
+      - Changelog: resources/changelog.md
+  - Developer Tools:
+      - CLI: developer-tools/cli.md
+      - SDKs: developer-tools/sdk.md
+      - Postman: developer-tools/postman.md
+      - Testing: developer-tools/testing.md
+      - API Logs: developer-tools/api-logs.md
+
