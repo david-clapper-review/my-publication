@@ -27,9 +27,17 @@ jobs:
           pip install mkdocs
           pip install mkdocs-material  # Replace with your theme/plugin dependencies
 
-      # Build and deploy MkDocs site
+      # Build the MkDocs site
+      - name: Build MkDocs site
+        run: mkdocs build
+
+      # Clean the site directory (to avoid conflicts)
+      - name: Clean the site directory
+        run: rm -rf site
+
+      # Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: site  # Default output directory for MkDocs
+          publish_dir: site
