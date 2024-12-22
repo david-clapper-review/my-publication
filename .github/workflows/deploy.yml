@@ -30,10 +30,6 @@ jobs:
       - name: Build MkDocs site
         run: mkdocs build
 
-      # Clean the site directory
-      - name: Clean the site directory
-        run: rm -rf site
-
       # Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
