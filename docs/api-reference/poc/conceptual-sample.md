@@ -1,4 +1,4 @@
-# What is the Thing?
+# What is the thing?
 
 The thing is like a super cool tool that you can use for doing stuff. It’s made for, like, developers, or I guess anyone who needs it? Basically, it does all kinds of operations that you probably don’t wanna do manually. Think of it as your best friend for automation, or something like that.
 

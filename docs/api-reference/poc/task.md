@@ -1,6 +1,6 @@
-# How to Set Up Widget Tool
+# How to set up Widget
 <!-- topic-type: task -->
-To set up the Widget Tool, you need to download it from the repository and configure it properly. Follow these steps to ensure a successful installation.
+To set up the Widget, you need to download it from the repository and configure it properly. Follow these steps to ensure a successful installation.
 
 ## Task Steps
 
