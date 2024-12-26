@@ -1,6 +1,6 @@
-# API Endpoints for the Widget
+# API Endpoints for Widget
 <!-- topic-type: reference -->
-This document describes the API endpoints for managing the "widget." You can use these endpoints to create, retrieve, or delete the widget. Please note that some endpoints may be outdated.
+This document describes the API endpoints for managing Widget Tool. You can use these endpoints to create, retrieve, or delete a widget. Please note that some endpoints may be outdated.
 
 ## Parameters
 | Parameter  | Description                                         | Default Value |

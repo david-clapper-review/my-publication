@@ -1,6 +1,6 @@
-# How to Set Up the Application
+# How to Set Up Widget Tool
 <!-- topic-type: task -->
-To set up the application, you need to download it from the repository and configure it properly. Follow these steps to ensure a successful installation.
+To set up the Widget Tool, you need to download it from the repository and configure it properly. Follow these steps to ensure a successful installation.
 
 ## Task Steps
 1. Download the application from the repository. Search for "download" in the documentation if you cannot find the link.
