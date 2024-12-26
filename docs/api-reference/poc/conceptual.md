@@ -16,7 +16,7 @@ In summary, Widget is a powerful automation tool that enhances productivity by s
 - Running batch operations on large datasets without manual intervention.
 - Using the CLI to execute commands for quick data manipulation.
 
-## Related Information
+## Related information
 
 - [API Documentation](https://example.com/api-documentation)
 - [CLI Guide](https://example.com/cli-guide)

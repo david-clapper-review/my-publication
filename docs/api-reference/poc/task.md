@@ -2,7 +2,7 @@
 <!-- topic-type: task -->
 To set up the Widget, you need to download it from the repository and configure it properly. Follow these steps to ensure a successful installation.
 
-## Task Steps
+## Task steps
 
 1. Download the application from the repository. Search for "download" in the documentation if you cannot find the link.
 2. Open a terminal and make the setup script executable by running:
