@@ -10,11 +10,13 @@ One of the key features of Widget Tool is its speed and scalability. It can oper
 In summary, Widget Tool is a powerful automation tool that enhances productivity by simplifying complex tasks.
 
 ## Examples
+
 - Automating data processing tasks for software development.
 - Running batch operations on large datasets without manual intervention.
 - Using the CLI to execute commands for quick data manipulation.
 
 ## Related Information
+
 - [API Documentation](#)
 - [CLI Guide](#)
 - [User Manual](#)

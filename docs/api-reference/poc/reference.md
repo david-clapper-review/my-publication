@@ -3,6 +3,7 @@
 This document describes the API endpoints for managing Widget Tool. You can use these endpoints to create, retrieve, or delete a widget. Please note that some endpoints may be outdated.
 
 ## Parameters
+
 | Parameter  | Description                                         | Default Value |
 |------------|-----------------------------------------------------|---------------|
 | id         | The ID of the widget you want to access. Required.  | None          |
@@ -10,12 +11,17 @@ This document describes the API endpoints for managing Widget Tool. You can use 
 | description| An optional description of the widget.               | None          |
 
 ## Examples
+
 ### GET /api/v1/widget
+
 **Request**:
+
 ```http
 GET /api/v1/widget?id=123
 ```
+
 **Response**:
+
 ```json
 {
   "id": "123",
@@ -25,7 +31,9 @@ GET /api/v1/widget?id=123
 ```
 
 ### POST /api/v1/widget
+
 **Request**:
+
 ```http
 POST /api/v1/widget
 Content-Type: application/json
@@ -35,7 +43,9 @@ Content-Type: application/json
   "description": "This is a cool widget."
 }
 ```
+
 **Response**:
+
 ```json
 {
   "id": "456"
@@ -43,14 +53,18 @@ Content-Type: application/json
 ```
 
 ### DELETE /api/v1/widget
+
 **Request**:
+
 ```http
 DELETE /api/v1/widget?id=123
 ```
+
 **Response**:
 No content or an error message if the widget is not found.
 
 ## Notes
+
 - Use the GET endpoint to check if the widget exists.
 - Use the POST endpoint to create a new widget. Check logs if there are issues.
 - Use the DELETE endpoint with caution, as deletions are permanent.

@@ -3,6 +3,7 @@
 Here are the API endpoints that you can use to, like, do stuff with the thing. Some of these work, but some might be outdated—I’m not sure which ones though, lol.
 
 ## **1. GET /api/v1/thing**
+
 - **Description**: Gets the thing.
 - **Parameters**:
   - `id` (string): The ID of the thing you want. I think it’s required?
@@ -20,6 +21,7 @@ Here are the API endpoints that you can use to, like, do stuff with the thing. S
 ---
 
 ## **2. POST /api/v1/thing**
+
 - **Description**: Creates a new thing.
 - **Parameters**:
   - `name` (string): Name of the thing. Make it something cool.
@@ -31,6 +33,7 @@ Here are the API endpoints that you can use to, like, do stuff with the thing. S
 ---
 
 ## **3. DELETE /api/v1/thing**
+
 - **Description**: Deletes a thing.
 - **Parameters**:
   - `id` (string): The ID of the thing to delete.
