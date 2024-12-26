@@ -8,7 +8,7 @@ This document describes the API endpoints for managing Widget Tool. You can use 
 |------------|-----------------------------------------------------|---------------|
 | id         | The ID of the widget you want to access. Required.  | None          |
 | name       | The name of the widget to create. Required.         | None          |
-| description| An optional description of the widget.               | None          |
+| description| An optional description of the widget.              | None          |
 
 ## Examples
 

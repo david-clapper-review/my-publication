@@ -9,6 +9,7 @@ Here are the API endpoints that you can use to, like, do stuff with the thing. S
   - `id` (string): The ID of the thing you want. I think it’s required?
 - **Response**:
   - Returns some JSON, probably. Something like this:
+
     ```json
     {
       "id": "123",
@@ -16,6 +17,7 @@ Here are the API endpoints that you can use to, like, do stuff with the thing. S
       "status": "active"
     }
     ```
+
 - **Notes**: This one is super useful for, like, checking if the thing exists.
 
 ---

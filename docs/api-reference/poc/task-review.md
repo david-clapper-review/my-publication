@@ -1,4 +1,4 @@
-Review of task-related content
+# Review of task-related content
 
 Clarity
 Vague Language: The use of informal phrases like "like," "probably," and "I think" creates ambiguity. Be direct and specific in instructions.
@@ -21,14 +21,14 @@ Improvement: Use numbered steps to guide the user through the process.
 Example:
 
 1. Download the required files from the repository.
-     2. Open a terminal.
-     3. Make the setup script executable:
+2. Open a terminal.
+3. Make the setup script executable:
 bash
         chmod +x setup.sh
 
 4. Run the setup script.
-     5. Edit the configuration file located in the root directory.
-     6. Start the application:
+5. Edit the configuration file located in the root directory.
+6. Start the application:
 bash
         ./start.sh
 
@@ -47,6 +47,7 @@ Improvement: Include a troubleshooting section or additional guidance for common
 Example:
 
 ## Troubleshooting
+
      If the application does not start, check the following:
      - Ensure that the configuration settings are correct.
      - Review the logs for any error messages.
