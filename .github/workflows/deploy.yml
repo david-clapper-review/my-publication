@@ -15,26 +15,19 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # Set up Python
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      # Set up Node.js
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
         with:
-          python-version: '3.9'
+          node-version: '14'
 
-      # Cache pip dependencies
-      - name: Cache pip dependencies
-        uses: actions/cache@v3
-        with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-
+      # Install markdownlint-cli
+      - name: Install markdownlint-cli
+        run: npm install -g markdownlint-cli
 
-      # Install linting tools
-      - name: Install linting tools
-        run: |
-          python -m pip install --upgrade pip
-          pip install markdownlint-cli markdown-link-check
+      # Install markdown-link-check
+      - name: Install markdown-link-check
+        run: npm install -g markdown-link-check
 
       # Check Markdown syntax
       - name: Check Markdown syntax
@@ -65,7 +58,7 @@ jobs:
         uses: actions/cache@v3
         with:
           path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
           restore-keys: |
             ${{ runner.os }}-pip-
 
@@ -73,7 +66,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install mkdocs mkdocs-material
+          pip install -r requirements.txt
 
       # Build the MkDocs site
       - name: Build MkDocs site
@@ -85,4 +78,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: site
-          force_orphan: true  # Ensure no conflicts with the existing branch
+          force_orphan: true
