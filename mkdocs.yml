@@ -36,14 +36,14 @@ nav:
       - Error Codes: api-reference/error-codes.md
       - POC:
           - Dev task input: api-reference/poc/task-sample.md
-          - Dev task input review: pi-reference/poc/task-review.md
-          - Task rewrite: pi-reference/poc/task.md
+          - Dev task input review: api-reference/poc/task-review.md
+          - Task rewrite: api-reference/poc/task.md
           - Dev conceptual input: api-reference/poc/conceptual-sample.md
-          - Dev conceptual input review: pi-reference/poc/conceptual-review.md
-          - Conceptual rewrite: pi-reference/poc/conceptual.md
+          - Dev conceptual input review: api-reference/poc/conceptual-review.md
+          - Conceptual rewrite: api-reference/poc/conceptual.md
           - Dev reference input: api-reference/poc/reference-sample.md
-          - Dev reference input review: pi-reference/poc/reference-review.md
-          - Reference rewrite: pi-reference/poc/reference.md
+          - Dev reference input review: api-reference/poc/reference-review.md
+          - Reference rewrite: api-reference/poc/reference.md
   - Webhooks:
       - Overview: webhooks/overview.md
       - Event Types: webhooks/event-types.md
