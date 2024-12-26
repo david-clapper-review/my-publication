@@ -1,4 +1,6 @@
-Feedback on Conceptual Content
+
+Review of conceptual content
+
 Clarity
 Ambiguous Terminology: The term "thing" is excessively vague and does not provide any specific information about what the tool actually is. This can confuse readers who are unfamiliar with the product. 
 

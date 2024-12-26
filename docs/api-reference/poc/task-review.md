@@ -1,4 +1,4 @@
-Review of Procedural Content
+Review of task-related content
 
 Clarity
 Vague Language: The use of informal phrases like "like," "probably," and "I think" creates ambiguity. Be direct and specific in instructions.
