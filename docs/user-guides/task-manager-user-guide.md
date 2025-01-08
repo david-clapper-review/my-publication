@@ -13,11 +13,11 @@ This user guide provides instructions on how to manage tasks effectively using t
 
 The Task Management application includes the following features:
 
-* Create tasks
-* View tasks
-* Update tasks
-* Delete tasks
-* Mark tasks as complete
+- Create tasks
+- View tasks
+- Update tasks
+- Delete tasks
+- Mark tasks as complete
 
 ## Getting Started
 
@@ -33,10 +33,10 @@ To create a new task, follow these steps:
 
 1. Click the "Add Task" button.
 2. Fill in the task details:
-   * Title
-   * Description
-   * Due date
-   * Priority level
+   - Title
+   - Description
+   - Due date
+   - Priority level
 3. Click the "Save" button to create the task.
 
 ### Example
