@@ -61,4 +61,5 @@ nav:
       - Postman: developer-tools/postman.md
       - Testing: developer-tools/testing.md
       - API Logs: developer-tools/api-logs.md
-
+  - User guides:
+      - Task manager: user-guides/task-manager-user-guide.md
