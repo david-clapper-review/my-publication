@@ -1,9 +1,6 @@
 # Task Management User Guide
 
-:toc: macro
-:toclevels: 3
-:sectanchors:
-:source-highlighter: highlightjs
+<!-- TOC -->
 
 ## Introduction
 
