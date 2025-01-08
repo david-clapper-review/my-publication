@@ -40,9 +40,9 @@ To create a new task, follow these steps:
 
 ```json
 {
-"title": "Complete documentation",
-"description": "Finalize the user guide for the Task Management application.",
-"due_date": "2023-10-31",
-"priority": "High"
+  "title": "Complete documentation",
+  "description": "Finalize the user guide for the Task Management application.",
+  "due_date": "2023-10-31",
+  "priority": "High"
 }
 ```
